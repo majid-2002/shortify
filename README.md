@@ -35,7 +35,7 @@ go mod tidy
 
 ### 3. Set up PostgreSQL:
 
-Make sure you have a PostgreSQL database running. You can use the following environment variables or modify the connection string in `database/database.go`:
+Make sure you have a PostgreSQL database running. You can use the following environment variables or modify the connection string in `database/db.go`:
 
 ```bash
 host=localhost user=<username> password=<password> dbname=shortify_db port=5432 sslmode=disable
